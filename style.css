@@ -1,0 +1,72 @@
+*{margin: 0; padding: 0;}
+
+body{
+   background-color: #161712;
+}
+
+div.box{
+    margin: 0 auto;
+    width: 500px;
+    background: #222222;
+    position: relative;
+    top: 50px;
+    border: 1px solid black;
+}
+
+div.box h1{
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 5px 0 5px 5px;
+    border-bottom: 1px solid #161712;
+    border-top: 1px solid #161712;
+}
+
+div.box label{
+    width: 100%;
+    display: block;
+    padding: 10px 0 10px 0;
+    background-color: #1c1c1c;
+    border-top: 1px solid #262626;
+    border-bottom: 1px solid #161712;
+}
+
+div.box label spa{
+    display: block;
+    color: whitesmoke;
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+    padding: 5px 20px 0 0;
+}
+
+div.box .txt{
+    padding: 10px 10px;
+    width: 200%;
+    background: #262626;
+    border-radius: 1px solid #333;
+}
+
+div.box .menssagem{
+    width: 350px;
+    padding: 8px 8px;
+    background: white;
+    border: 1px solid #333;
+    overflow: hidden;
+    height: 200px;
+}
+
+div.box .button{
+    width: 100px;
+    margin: 0 0 10px 0;
+    padding: 5px 7px;
+    background: red;
+    position: relative;
+    top: 10px;
+    left: 300px;
+    border: 1px solid blue;
+}
+
+textarea{
+    resize: none;
+}
